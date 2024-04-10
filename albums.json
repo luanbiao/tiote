@@ -1,0 +1,267 @@
+{
+    "o-outro-lado-do-toba": {
+      "slug": "o-outro-lado-do-toba",
+      "title": "O Outro Lado do Toba (2021)",
+      "songs": [
+        {
+          "title": "Pombo Rasante",
+          "slug": "pombo-rasante",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Cobra Kai (Part. Coko)",
+          "slug": "cobra-kai-part-coko",
+          "artists": "Luan Bião part. Coko"
+        },
+        {
+          "title": "Bomba Relógio",
+          "slug": "bomba-relogio",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Purple Phase",
+          "slug": "purple-phase",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Vida de Cão",
+          "slug": "vida-de-cao",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Dream PT",
+          "slug": "dream-pt",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Age Otha (Part. @jugordaoficial)",
+          "slug": "age-otha-part-jugordaoficial",
+          "artists": "Luan Bião part. @jugordaoficial"
+        },
+        {
+          "title": "Don Luan Pizzaria",
+          "slug": "don-luan-pizzaria",
+          "artists": "Luan Bião"
+        }
+      ]
+    },
+    "buraco-de-minhoca": {
+      "slug": "buraco-de-minhoca",
+      "title": "Buraco de Minhoca (2018)",
+      "songs": [
+        {
+          "title": "Tentaram me Parar",
+          "slug": "tentaram-me-parar",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Tempo Correndo",
+          "slug": "tempo-correndo",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Sentado numa Praça (Part. Potato)",
+          "slug": "sentado-numa-praca-part-potato",
+          "artists": "Luan Bião part. Potato"
+        },
+        {
+          "title": "Lobisomem de Quebrada",
+          "slug": "lobisomem-de-quebrada",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Juiz Dredd BR",
+          "slug": "juiz-dredd-br",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Pau e já era (Part. Potato)",
+          "slug": "pau-e-ja-era-part-potato",
+          "artists": "Luan Bião part. Potato"
+        },
+        {
+          "title": "Espelhos",
+          "slug": "espelhos",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Papo de Porquinho",
+          "slug": "papo-de-porquinho",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Amazon Fire (Part. Potato)",
+          "slug": "amazon-fire-part-potato",
+          "artists": "Luan Bião part. Potato"
+        },
+        {
+          "title": "Alienweb (Part. Potato)",
+          "slug": "alienweb-part-potato",
+          "artists": "Luan Bião part. Potato"
+        },
+        {
+          "title": "Puta um pato puto",
+          "slug": "puta-um-pato-puto",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "1 2 3 Pan",
+          "slug": "1-2-3-pan",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Minhoca de Buraco",
+          "slug": "minhoca-de-buraco",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Tá eu já sei (Bonus)",
+          "slug": "ta-eu-ja-sei-bonus",
+          "artists": "Luan Bião"
+        }
+      ]
+    },
+    "dimensoes-paralelas": {
+      "slug": "dimensoes-paralelas",
+      "title": "Dimensões Paralelas (2017)",
+      "songs": [
+        {
+          "title": "Bem Vindo a Luantown",
+          "slug": "bem-vindo-a-luantown",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Rap Desk (Part. Passinho)",
+          "slug": "rap-desk-part-passinho",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Bala de Prata (Part. Potato)",
+          "slug": "bala-de-prata-part-potato",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Moska Não (Part. Potato)",
+          "slug": "moska-nao-part-potato",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Onde o Sol não Bate",
+          "slug": "onde-o-sol-nao-bate",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Ouviram do Ipiranga (Part. Charmander)",
+          "slug": "ouviram-do-ipiranga-part-charmander",
+          "artists": "Luan Bião part. Charmander"
+        },
+        {
+          "title": "Barreira do Remorso",
+          "slug": "barreira-do-remorso",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Ninja do Asfalto",
+          "slug": "ninja-do-asfalto",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Plano Lembrança (Part. Coko)",
+          "slug": "plano-lembranca-part-coko",
+          "artists": "Luan Bião part. Coko"
+        },
+        {
+          "title": "Sinônimos Reversivos",
+          "slug": "sinonimos-reversivos",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Entorpece e se Esquece (Part. Potato)",
+          "slug": "entorpece-e-se-esquece-part-potato",
+          "artists": "Luan Bião part. Potato"
+        },
+        {
+          "title": "O Dia na Arábia",
+          "slug": "o-dia-na-arabia",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Era só um update",
+          "slug": "era-so-um-update",
+          "artists": "Luan Bião"
+        }
+      ]
+    },
+    "mutaveis-momentos": {
+      "slug": "mutaveis-momentos",
+      "title": "Mutáveis Momentos (2016)",
+      "songs": [
+        {
+          "title": "Antônimos Estelares",
+          "slug": "antonimos-estelares",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Apelido Quem Tem (Part. Robertinha)",
+          "slug": "apelido-quem-tem-part-robertinha",
+          "artists": "Luan Bião part. Robertinha"
+        },
+        {
+          "title": "Arranhando a Superfície (Part. Bukk)",
+          "slug": "arranhando-a-superficie-part-bukk",
+          "artists": "Luan Bião part. Bukk"
+        },
+        {
+          "title": "Catarina",
+          "slug": "catarina",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Espartano (Part. Potato)",
+          "slug": "espartano-part-potato",
+          "artists": "Luan Bião part. Potato"
+        },
+        {
+          "title": "Impressões de Agosto",
+          "slug": "impressoes-de-agosto",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Lee ou Satanás (Part. Rodrigo Felipe)",
+          "slug": "lee-ou-satanas-part-rodrigo-felipe",
+          "artists": "Luan Bião part. Rodrigo Felipe"
+        },
+        {
+          "title": "Go Go Go Djow",
+          "slug": "go-go-go-djow",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "WASD (Part. Potato)",
+          "slug": "wasd-part-potato",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Toma um Dark Rap",
+          "slug": "toma-um-dark-rap",
+          "artists": "Luan Bião"
+        },
+        {
+          "title": "Política Nacional da Ignorância (Part. Pedro VLM)",
+          "slug": "politica-nacional-da-ignorancia-part-pedro-vlm",
+          "artists": "Luan Bião part. Pedro VLM"
+        },
+        {
+          "title": "Zuera e Gloria (Part. Gabão - Bonde do MD5)",
+          "slug": "zuera-e-gloria-part-gabao",
+          "artists": "Luan Bião part. Gabão"
+        },
+        {
+          "title": "Todos - Mutáveis Momentos",
+          "slug": "todos-mutaveis-momentos",
+          "artists": "Luan Bião"
+        }
+      ]
+    }
+  }
+  

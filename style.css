@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background: #383838;
+  color: #00dd00;
+  font-size: 55.5%;
+  font-size: 1.3em;
+  font-family: 'VT323', Courier;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header {
+  z-index: 1000;
+}
+
+footer {
+  z-index: 1000;
+}
+
+#logo {
+  width: 15%;
+  margin: 10px auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+#menu {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#menu li {
+  list-style: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  #menu li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+#corpo {
+  flex-grow: 1;
+  text-align: center;
+  background-color: rgb(34,34,34,0.7);
+  color: white;
+  z-index: 9999;
+  padding: 10px;
+  max-height: 80vh; 
+  overflow-y: auto; 
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+
+
+#footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#artista-info {
+  text-align: center;
+}
+
+#play-icon,
+#volume-icon {
+  margin: 0 5px;
+}
+
+.overlay {
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+}
+
+.overlay:before {
+  background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.03));
+  background-size: 100% 3px, 6px 100%;
+  content: "";
+  display: block;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.overlay:after {
+  background: rgba(16, 16, 16, 0.2);
+  content: "";
+  display: block;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.scanline {
+  animation: scroll 10s 5s infinite;
+  background: -moz-linear-gradient(top, rgba(0, 221, 0, 0) 0%, rgba(0, 221, 0, 1) 50%, rgba(0, 221, 0, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 221, 0, 0) 0%, rgba(0, 221, 0, 1) 50%, rgba(0, 221, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(0, 221, 0, 0) 0%, rgba(0, 221, 0, 1) 50%, rgba(0, 221, 0, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000dd00', endColorstr='#0000dd00', GradientType=0);
+  display: block;
+  height: 20px;
+  opacity: 0.05;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5%;
+  z-index: 2;
+}
+
+li a:before {
+  color: #00dd00;
+  content: ' [ ';
+}
+
+li a:after {
+  color: #00dd00;
+  content: ' ] ';
+}
+
+a {
+	color: white;	
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #00dd00;
+}
+
+#controles-musica {
+	font-size: 1.7em;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.song-entry {
+  margin-bottom: 10px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+}
+
+.song-link {
+  flex-grow: 1;
+}
+
+.play-button,
+.lyrics-button,
+.download-button {
+  margin-left: 10px; /* Adjust as needed */
+  cursor: pointer;
+}
