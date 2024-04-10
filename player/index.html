@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../style.css">
+  <script src=".../script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+  <style>
+    /* Coloque aqui o seu estilo CSS fornecido */
+  </style>
+  <title>Sua Playlist Retro Futurista</title>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="content">
+    <header class="site">
+      <h1>Your Retro Futuristic Playlist</h1>
+    </header>
+
+    <nav class="site">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="clearfix"></div>
+
+    <div class="playlist">
+      <div class="col">
+        <h4><b>O Outro Lado do Toba</b></h4>
+        <a href="#" class="btn btn-primary" onclick="loadPlaylist('o-outro-lado-do-toba')">Carregar Playlist</a>
+      </div>
+
+      <div class="col">
+        <h4><b>Buraco de Minhoca</b></h4>
+        <a href="#" class="btn btn-primary" onclick="loadPlaylist('buraco-de-minhoca')">Carregar Playlist</a>
+      </div>
+
+      <div class="col">
+        <h4><b>Dimensões Paralelas</b></h4>
+        <a href="#" class="btn btn-primary" onclick="loadPlaylist('dimensoes-paralelas')">Carregar Playlist</a>
+      </div>
+
+      <div class="col">
+        <h4><b>Mutáveis Momentos</b></h4>
+        <a href="#" class="btn btn-primary" onclick="loadPlaylist('mutaveis-momentos')">Carregar Playlist</a>
+      </div>
+    </div>
+
+    <div id="playlist" class="mt-4">
+      <!-- Aqui será exibida a lista de músicas da playlist -->
+    </div>
+
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+  function loadPlaylist(playlistName) {
+    $.ajax({
+      type: 'GET',
+      url: 'get_music.php',
+      data: { playlist: playlistName },
+      success: function(data) {
+        atualizePlaylist(data);
+      },
+      error: function(err) {
+        console.error('Erro ao carregar a playlist:', err);
+      }
+    });
+  }
+
+  function atualizePlaylist(musicDetails) {
+    $('#playlist').empty();
+    musicDetails.forEach(function(music) {
+      $('#playlist').append('<p>' + music.title + '</p>');
+    });
+  }
+</script>
+
+</body>
+</html>
