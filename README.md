@@ -27,8 +27,8 @@ Acesse agora:
 <img src="https://github.com/luanbiao/tiote/blob/main/telas/tiote-home.png" width=350>
 
 ### Listar Músicas do Albúm
-<img src="https://github.com/luanbiao/tiote/blob/main/telas/tiote-album-selected" width=350>
+<img src="https://github.com/luanbiao/tiote/blob/main/telas/tiote-album-selected.png" width=350>
 
 ### Player
-<img src="https://github.com/luanbiao/tiote/blob/main/telas/tiote-music-play" width=350>
+<img src="https://github.com/luanbiao/tiote/blob/main/telas/tiote-music-play.png" width=350>
 
